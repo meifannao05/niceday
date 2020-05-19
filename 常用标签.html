@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- 常用标签：
+标题标签：h1--h6,6种，字体从大到小 h${内容}*6 按TAB键可以生成
+段落标签：<p></p>		在网页上直接写空格或者是分行是不起作用的，必须通过标签或CSS样式解决
+图片标签：<img src="" alt=""> src属性：图片的地址源、
+列表标签：
+		无序列表ul>li;ul是列表的父元素标签；li子元素标签	快捷写法ul>li*5  5为数量，自定
+		有序列表ol>li;ol是列表的父元素标签；li子元素标签
+链接标签：可用于页面之间的跳转和页面内部的跳转;		页面内部跳转就通过href属性指向一个id值就行
+容器标签：div
+自定义标签：就随便自己写一个标签，给定样式例如：<zhou></zhou>
+表单标签：<form action=""></form>	属性：action：将表单的数据提交至什么地址
+										method：提交方法：一般有get、post
+										get方法：将表单的数据直接放置到链接地址上，可以直接看到，不安全，但是效率高
+										post方法：表单数据放置到body的请求里面，不直接显示，安全，但是效率低，可以表单的数据提交大
+		<input type="text">		type:定义输入标签的类型
+								name:提交输入数据的名称
+								value:提交输入框的值
+								placehodler:预置文字
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<h1>内容</h1>
+		<h2>内容</h2>
+		<img src="" alt="">
+		<ul>
+			<li>无序1</li>
+			<li>无序2</li>
+		</ul>
+		<ol>
+			<li>有序1</li>
+			<li>有序2</li>
+		</ol>
+		<a href="http://www.taobao.com">淘宝</a>
+		<a href="http://www.jd.com">京东</a>
+		<form action="https://www.baidu.com/s" method="get">
+			<input type="text" name="wd" />
+			<input type="submit" id="" name="" value="提交"/>
+		</form>
+	</body>
+</html>

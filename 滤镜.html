@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+		img:hover{
+			-webkit-filter: none;
+			transition: all 3s;
+		}
+		/* 滤镜属性 */
+		.img1{
+			/* 亮度调节 1为正常亮度，增加数值就会调节亮度*/
+			-webkit-filter: brightness(0.5);
+		}
+		.img2{
+			/* 灰度调节 1为百分之百，0为正常，可调节数值改变灰度*/
+			-webkit-filter: grayscale(1);
+		}
+		.img3{
+			/* 模糊度调节 blur的单位为像素 */
+			-webkit-filter: blur(5px);
+		}
+		.img4{
+			/* 褐色度的调节 1为百分之百褐色 0为正常 */
+			-webkit-filter: sepia(1);
+		}
+		.img5{
+			/* 饱和度的调节 1为正常 可调数值 */
+			-webkit-filter: contrast(2);
+		}
+		.img6{
+			/* 对比度的调节 1为正常 如果调成0就没有对比度，变为灰色 */
+			-webkit-filter: saturate(2);
+		}
+		.img7{
+			/* 色相旋转 单位度：0°——360° */
+			-webkit-filter: hue-rotate(50deg);
+		}
+		.img8{
+			/* 胶片底色效果 */
+			-webkit-filter: invert(1);
+		}
+		/* 可以多个滤镜共同作用 */
+	</style>
+	<body>
+		<img src="img/wechattemp.png" class="img1">
+		<img src="img/wechattemp.png" class="img2">
+		<img src="img/wechattemp.png" class="img3">
+		<img src="img/wechattemp.png" class="img4">
+		<img src="img/wechattemp.png" class="img5">
+		<img src="img/wechattemp.png" class="img6">
+		<img src="img/wechattemp.png" class="img7">
+		<img src="img/wechattemp.png" class="img8">
+	</body>
+</html>
